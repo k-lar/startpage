@@ -47,7 +47,71 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"XKQUAWNGrmKemYUe","label":"net","bookmarks":[{"id":"BOvD0ghtzmpEXdP1","label":"youtube","url":"https://www.youtube.com/"},{"id":"e4ECTWeGdK3HAP0o","label":"twitter","url":"https://twitter.com/"},{"id":"bvBuhM7MWfFzGNQL","label":"spotify","url":"https://open.spotify.com/"}]},{"id":"eN6Hi1rowShOojk3","label":"dev","bookmarks":[{"id":"ukCHAZeMKlzTouPi","label":"gitlab","url":"https://gitlab.com/k_lar/"},{"id":"RqoaAhUKhM9bvgO2","label":"github","url":"https://github.com/k-lar/"}]},{"id":"YDH45cHnVk53Y1uq","label":"misc","bookmarks":[{"id":"4E0WgTm8ZZY6FtG2","label":"knaben","url":"https://knaben.ru"},{"id":"rNqbzVDq6mgis4pQ","label":"fmovies","url":"https://fmovies.to"},{"id":"EM53X9n0mSFBgoyy","label":"kimanime","url":"https://kimanime.com/"},{"id":"TjCJuxpdcNnLo5Rp","label":"animepahe","url":"https://animepahe.ru/"}]}]
+const bookmarks = [
+   {
+      "id":"XKQUAWNGrmKemYUe",
+      "label":"net",
+      "bookmarks":[
+         {
+            "id":"BOvD0ghtzmpEXdP1",
+            "label":"youtube",
+            "url":"https://www.youtube.com/"
+         },
+         {
+            "id":"e4ECTWeGdK3HAP0o",
+            "label":"twitter",
+            "url":"https://twitter.com/"
+         },
+         {
+            "id":"bvBuhM7MWfFzGNQL",
+            "label":"spotify",
+            "url":"https://open.spotify.com/"
+         }
+      ]
+   },
+   {
+      "id":"eN6Hi1rowShOojk3",
+      "label":"dev",
+      "bookmarks":[
+         {
+            "id":"ukCHAZeMKlzTouPi",
+            "label":"gitlab",
+            "url":"https://gitlab.com/k_lar/"
+         },
+         {
+            "id":"RqoaAhUKhM9bvgO2",
+            "label":"github",
+            "url":"https://github.com/k-lar/"
+         }
+      ]
+   },
+   {
+      "id":"YDH45cHnVk53Y1uq",
+      "label":"misc",
+      "bookmarks":[
+         {
+            "id":"4E0WgTm8ZZY6FtG2",
+            "label":"knaben",
+            "url":"https://knaben.ru"
+         },
+         {
+            "id":"rNqbzVDq6mgis4pQ",
+            "label":"fmovies",
+            "url":"https://fmovies.to"
+         },
+         {
+            "id":"EM53X9n0mSFBgoyy",
+            "label":"kimanime",
+            "url":"https://kimanime.com/"
+         },
+         {
+            "id":"TjCJuxpdcNnLo5Rp",
+            "label":"animepahe",
+            "url":"https://animepahe.ru/"
+         }
+      ]
+   }
+]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
